@@ -1,0 +1,36 @@
+.messageContainer{
+    height: 100vh;
+    width: 100%;
+
+    h1{
+        text-align: center;
+        font-size: 55px;
+        color: azure;
+        padding: 2% 3% 1%;
+    }
+
+    .containerMessage{
+        background-image: url('../../assets/bg2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 25px 0;
+        border-radius: 15px;
+        
+
+        .blur{
+            height: inherit;
+            backdrop-filter: blur(0.7px);
+            border-radius: 15px;
+            p{
+                
+                margin: auto;
+                color: #ffff;
+                text-align: center;
+                padding: 25px;
+                font-size: 20px;
+            }
+        }
+        
+    }
+}
+  
